@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00ffff;
+
+}
+form{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+#data {
+    margin-bottom: 10px;
+}
+#data input, button {
+    padding: 10px;
+    width: 90px;
+}
+#frm_pos{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+#frm_pos div{
+    margin: 0 20px 20px;
+}
+
+
+form #submit{
+    padding:10px;
+    margin-left: 50px;
+    padding-bottom: 0px;
+    border: 2px;
+    color: white;
+}
+form #name{
+
+    margin-top: 20px;
+    border-radius: 60px;
+    width:300px;
+    height: 40px;
+}
+form #sig{
+    width: 300px;
+    height: 40px;
+    border-radius: 60px;
+}
+form #Shift{
+    border-radius: 60px;
+    width:350px;
+    height: 40px;
+}
+form #task{
+    border-radius: 10px;
+}
+form #submit button{
+    background: rgb(43, 76, 226);
+    width:200px;
+    border-radius: 60px;
+    color: white;
+    transform: translate(-20%);
+}
+#t{
+    padding-top: 40px;
+}
+
+#t table{
+    position: absolute;
+    z-index: -1;
+    left:50%;
+    right:50%;
+    transform: translate(-23%);
+    width:60%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+}
+#t table td{
+    padding: 10px 30px;
+    border: 2px solid black;
+}
+
+
+
+
